@@ -5,7 +5,7 @@ name = input(" enter name ")
 lengthname = len(name)
 mobile = input(" enter mobile ")
 
-if lengthname < 15 and len(mobile) < 10:
+if lengthname < 20 and len(mobile) < 10:
     print("PASS")
 else:
     print("FAIL")
